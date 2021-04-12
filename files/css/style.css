@@ -6,6 +6,7 @@
 body {
   background-image: url("../img/night.jpg");
   font-family: 'Benne', serif;
+  background-attachment: fixed;
   
 }
 
@@ -53,9 +54,10 @@ text-align: center;
 }
 
 img {
-width: 300px;
-height: 140px;
+  width: 300px;
+  height: 140px;
 }
+
 
 .page-footer {
   padding: 30px 0;
@@ -83,75 +85,33 @@ height: 140px;
 
 }
 
+
 ul {
+vertical-align: top;
+margin: 0 5px;
 text-shadow: 1.5px 1.5px 1.5px black;
 list-style-type: none;
 text-align: center;
-margin: 10px;
 color: white;
 font-size: 25px;
 margin: 50px;
 
 }
 
-ul li a {
+ul li a { 
+vertical-align: top;
+margin: 0 5px;
+text-align: center;
 text-shadow: 1.5px 1.5px 1.5px black;
 list-style-type: none;
-margin: 15px;
-padding: 10px;
+padding: 5px;
 color: #f2f063;
 font-size: 22px;
 text-decoration: none;
 }
 
 
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 568px) {
 
-section h1 {
-text-shadow: 1.5px 1.5px 1.5px black;
-font-size: 25px;
-color: white;
-text-align: center;
-}
-
-section h2 {
-text-shadow: 1.5px 1.5px 1.5px black;
-font-size: 18px;
-color: white;
-text-align: center;
-}
-
-img {
-width: 170px;
-height: 90px;
-
-}
-
-ul {
-text-shadow: 1.5px 1.5px 1.5px black;
-list-style-type: none;
-text-align: center;
-color: white;
-font-size: 18px;
-
-
-}
-
-ul li a {
-text-shadow: 1.5px 1.5px 1.5px black;
-list-style-type: none;
-margin: 15px;
-padding: 10px;
-color: #f2f063;
-font-size: 18px;
-text-decoration: none;
-text-align: center;
-
-
-}
-}
 
 
 
